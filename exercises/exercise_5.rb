@@ -12,4 +12,4 @@ puts "----------"
 puts @company_revenue
 puts @company_revenue / Store.count
 
-puts Store.where("annual_revenue > 1000000").count 
+puts Store.where("annual_revenue > 1000000").count
